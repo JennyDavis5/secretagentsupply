@@ -16,7 +16,7 @@ header {
   text-transform: uppercase;
 }
 
-.logo {
+header .container{
   display: flex;
   font-size: 1rem;
   padding-top: 0.66rem;
@@ -34,33 +34,33 @@ header {
   padding-left: 1rem;
 }
 
-.mainbanner {
-  display: flex;
+.banner {
   background-image: url("../images/moto.jpeg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
-  align-items: center;
 }
 
-.maintitle {
-  display: inline-block;;
+.headline {
   background-color: black;
   width: 20rem;
+  position: relative;
   text-transform: uppercase;
-  padding-top: 2rem;
-  padding-left: 3rem;
-  padding-bottom: 2rem;
-  padding-right: 3rem;
+  padding: 2rem 3rem;
+  top: 9rem;
 }
 
-.maintitle h3 {
+.headline h4 {
   font-size: 1rem;
-  margin-bottom: 0.25rem;
+  line-height: 1.2rem;
+  margin: 1rem 0;
 }
 
-.maintitle h1 {
+.headline h1 {
   font-size: 2rem;
+  margin-top: 0.25rem;
+  line-height: 1.2em;
 }
 
 .topnav {
@@ -110,6 +110,6 @@ header {
 
 footer {
   text-align: left;
-  height: 5rem
+  height: 5rem;
   background-color: black;
 }
