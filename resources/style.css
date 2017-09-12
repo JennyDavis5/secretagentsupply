@@ -17,6 +17,6 @@ header {
   font-size: 1rem;
 }
 
-.main-banner {
-  background-image: url("./resources/images/moto.jpeg");
+.mainbanner {
+  background-image: url("../images/moto.jpeg");
 }
