@@ -1,5 +1,5 @@
 html {
-  /*font-size: 18px*/
+  font-size: 18px;
   color: white;
   font-family: Helvetica;
   font-weight: bold;
@@ -7,7 +7,7 @@ html {
 
 .container {
   width: 960px;
-  align-items: center;
+  margin: 0 auto;
 }
 
 header {
@@ -33,7 +33,6 @@ header {
   display: flex;
   padding-left: 1rem;
 }
-
 
 .mainbanner {
   display: flex;
@@ -74,7 +73,6 @@ header {
 
 #store {
   margin-top: 3rem;
-
 }
 
 .item {
@@ -96,7 +94,7 @@ header {
   padding-bottom: 0.5rem;
   /*text-align: center;*/
 }
-/*
+
 #contact {
   margin-top: 3rem;
   background-color: black;
@@ -114,4 +112,4 @@ footer {
   text-align: left;
   height: 5rem
   background-color: black;
-}*/
+}
