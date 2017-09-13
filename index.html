@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Secret Agent Supply Inc.</title>
   <link href="./resources/css/reset.css" type="text/css" rel="stylesheet"/>
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
-  <div class="container">
+
+  <body>
     <header>
       <div class="container">
         <img src="./resources/images/logo.png" alt="logo"/>
@@ -23,46 +24,61 @@
       </div>
     </section>
 
-    <nav class="topnav">
-      <span>Eyewear</span>
-      <span>Apparel</span>
-      <span>Gadgets</span>
-      <span>Vehicles</span>
-      <span>Glasses</span>
-      <span>Contact</span>
+    <nav>
+      <ul class="container">
+        <li>Eyewear</li>
+        <li>Apparel</li>
+        <li>Gadgets</li>
+        <li>Vehicles</li>
+        <li>Glasses</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="mobile_nav container">
+        <li>Menu</li>
+      </ul>
     </nav>
 
-    <!--Store Section-->
-    <div id="store">
-      <div class="item">
-        <img src="./resources/images/pen.png" alt="pen"/>
-        <span>Exploding Pen</span>
-      </div>
-      <div class="item">
-        <img src="./resources/images/watch.png" alt="watch"/>
-        <span>Cellular Watch</span>
-      </div>
-      <div class="item">
-        <img src="./resources/images/glasses.png" alt="glasses"/>
-        <span>Thermal Glasses</span>
-      </div>
-    </div>
+    <main class="container">
+      <div class="products">
+        <div class="product">
+          <div class="product_img">
+            <img src="./resources/images/pen.png" alt="pen"/>
+          </div>
+          <span class="product_name">Exploding Pen</span>
+        </div>
 
-    <div id="contact">
-      <div class="location">
-        <span>Location</span>
-        <h6>-47.346436, 84.32354</h6>
+        <div class="product watch">
+          <div class="product_img">
+            <img src="./resources/images/watch.png" alt="watch"/>
+          </div>
+          <span class="product_name">Cellular Watch</span>
+        </div>
+
+        <div class="product glasses">
+          <div class="product_img">
+            <img src="./resources/images/glasses.png" alt="glasses"/>
+          </div>
+          <span class="product_name">Thermal Glasses</span>
+        </div>
       </div>
-      <div class="hours">
-        <span>Hours</span>
-        <h6>0800 - 1800</h6>
+
+      <div class="container">
+        <div class="infos">
+          <div class="info">
+            <span class="info_name">Location</span>
+            <span>-47.346436, 84.32354</span>
+          </div>
+          <div class="info">
+            <span class="info_name">Hours</span>
+            <span>0800 - 1800</span>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
 
     <footer>
       <div class="container">Copyright Secret Agent Supply Inc.</div>
     </footer>
-  </div>
-</body>
+  </body>
 
 </html>
